@@ -18,6 +18,7 @@ export class PropertyListComponent implements OnInit {
         console.log(data);
       },
       error =>{
+        //Error Handling
         console.log(error);
       }
     );
